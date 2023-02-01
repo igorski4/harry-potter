@@ -240,4 +240,33 @@ html {
   font-size: 16px;
   line-height: 28px;
   color: #152536;
+}
+
+@media (max-width: 768px) {
+  .header__title-wrapper {
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+    margin: 0 auto;
+  }
+  .header__title {
+    font-size: 52px;
+    line-height: 63px;
+  }
+  .header__subtitle {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .header__wrapper {
+    flex-direction: column;
+  }
+  .header__input-wrapper {
+    margin: 0 auto;
+  }
+  .header__input, .header__select {
+    width: 320px;
+  }
+  .container {
+    width: 90%;
+  }
 }/*# sourceMappingURL=styles.css.map */

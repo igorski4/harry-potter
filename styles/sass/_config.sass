@@ -99,3 +99,23 @@ html
     font-size: 16px
     line-height: 28px
     color: #152536
+
+@media (max-width: 768px)
+  .header
+    &__title-wrapper
+      max-width: max-content
+      margin: 0 auto
+    &__title
+      font-size: 52px
+      line-height: 63px
+    &__subtitle
+      font-size: 16px
+      line-height: 28px
+    &__wrapper
+      flex-direction: column
+    &__input-wrapper
+      margin: 0 auto
+    &__input, &__select
+      width: 320px
+  .container
+    width: 90%
