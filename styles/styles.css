@@ -172,26 +172,31 @@ html {
   display: flex;
   gap: 20px;
 }
-
-.wrapper__text {
+.header__text {
   margin-bottom: 3px;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   color: #818182;
 }
-.wrapper__input {
+.header__input {
   width: 452px;
   height: 38px;
   padding-left: 17.22px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
   border: 1px solid #CED4DA;
   border-radius: 4px;
 }
-.wrapper__select {
+.header__select {
   width: 216px;
   height: 38px;
   padding-left: 15px;
   padding-right: 17px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
   border: 1px solid #CED4DA;
   border-radius: 4px;
 }
