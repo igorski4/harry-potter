@@ -1,0 +1,94 @@
+* 
+  box-sizing: border-box
+
+html
+  scroll-behavior: smooth
+  background: #F5F5F5
+
+.container 
+  max-width: 688px
+  margin: 0 auto
+  font-family: 'Inter', sans-serif
+  font-style: normal
+
+.header
+  padding-top: 64px
+  padding-bottom: 40px
+
+  border-bottom: 1px solid #DEE2E6
+  &__title
+    font-weight: 700
+    font-size: 64px
+    line-height: 77px
+    letter-spacing: -0.02em
+    color: #000000
+
+  &__subtitle
+    margin-bottom: 48px
+
+    font-weight: 400
+    font-size: 21px
+    line-height: 36px
+    color: #000000
+  &__wrapper
+    display: flex
+    gap: 20px
+
+.wrapper
+  &__text
+    margin-bottom: 3px
+
+    font-weight: 400
+    font-size: 16px
+    line-height: 28px
+    color: #818182
+  &__input
+    width: 452px
+    height: 38px
+    padding-left: 17.22px
+
+    border: 1px solid #CED4DA
+    border-radius: 4px
+  &__select
+    width: 216px
+    height: 38px
+    padding-left: 15px
+    padding-right: 17px
+
+    border: 1px solid #CED4DA
+    border-radius: 4px
+
+.main
+  padding-top: 40px
+  padding-bottom: 40px
+  &__grid
+    display: grid
+    grid-template-columns: repeat(auto-fit, 334px)
+    grid-template-rows: repeat(auto-fill, 1fr)
+    justify-content: center
+    gap: 20px
+
+.grid
+  &__item
+    background: #FFFFFF
+    outline: 1px solid #DEE2E6
+    border-radius: 4px
+
+.item
+  &__img
+    width: 334px
+    height: 192px
+    object-fit: cover
+    border-radius: 4px 4px 0px 0px
+  &__text-wrapper
+    padding: 24px 25px 25px 24px
+  &__title
+    font-weight: 800
+    font-size: 20px
+    line-height: 24px
+    color: #152536
+  &__text
+    font-weight: 400
+    font-size: 16px
+    line-height: 28px
+    color: #152536
