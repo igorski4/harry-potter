@@ -2,6 +2,7 @@ import { grid } from "./globalVariable.js";
 
 export const addCard = (elem) => {
   let gridItem = document.createElement("div");
+  gridItem.className = "grid__item";
   gridItem.innerHTML = `
             <img
               class="item__img"
